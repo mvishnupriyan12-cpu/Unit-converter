@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #edf5d6;
+}
+
+form {
+    text-align: center;
+    background-color: rgb(210, 231, 248);
+    width: 500px;
+    padding: 30px;
+    border-radius: 6px;
+    height: 550px;
+       animation: slideFade 0.8s ease-out forwards;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+@keyframes slideFade {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(73, 52, 94);
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
+.inputlabel{
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#inputbox{
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(22, 85, 64);
+    border-radius: 5px;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    font-size: 30px;
+}
+.radioinput{
+    margin-top: 32px;
+    font-size: 20px;
+   
+}
+h2{
+    margin-top: 35px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 56, 56);
+}
+#convert{
+    padding: 15px;
+    margin-top: 25px;
+    border: none;
+    background-color: rgb(89, 89, 172);
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s,color 0.15s;
+}
+#convert:hover{
+    background-color: white;
+    color:rgb(89, 89, 172);
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+}
